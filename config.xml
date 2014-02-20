@@ -21,15 +21,15 @@
 	 
 	 <gap:platform name="android"/>
 	 
-	<icon src="resources/PackageIcons.Android.ic_launcher_36_36.png"   gap:platform="android"    gap:density="ldpi" />
-    <icon src="resources/PackageIcons.Android.ic_launcher_48_48.png"   gap:platform="android"    gap:density="mdpi" />
-    <icon src="resources/PackageIcons.Android.ic_launcher_72_72.png"   gap:platform="android"    gap:density="hdpi" />
-    <icon src="resources/PackageIcons.Android.ic_launcher_96_96.png"   gap:platform="android"    gap:density="xhdpi" />
+	<icon src="Resources/PackageIcons.Android.ic_launcher_36_36.png"   gap:platform="android"    gap:density="ldpi" />
+    <icon src="Resources/PackageIcons.Android.ic_launcher_48_48.png"   gap:platform="android"    gap:density="mdpi" />
+    <icon src="Resources/PackageIcons.Android.ic_launcher_72_72.png"   gap:platform="android"    gap:density="hdpi" />
+    <icon src="Resources/PackageIcons.Android.ic_launcher_96_96.png"   gap:platform="android"    gap:density="xhdpi" />
 	
-	<gap:splash src="resources/PackageIcons.Android.splash_200_320.png"  gap:platform="android" gap:density="ldpi" />
-    <gap:splash src="resources/PackageIcons.Android.splash_320_480.png"  gap:platform="android" gap:density="mdpi" />
-    <gap:splash src="resources/PackageIcons.Android.splash_480_800.png"  gap:platform="android" gap:density="hdpi" />
-    <gap:splash src="resources/PackageIcons.Android.splash_720_1280.png" gap:platform="android" gap:density="xhdpi" />
+	<gap:splash src="Resources/PackageIcons.Android.splash_200_320.png"  gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="Resources/PackageIcons.Android.splash_320_480.png"  gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="Resources/PackageIcons.Android.splash_480_800.png"  gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="Resources/PackageIcons.Android.splash_720_1280.png" gap:platform="android" gap:density="xhdpi" />
 	 
 	 <gap:plugin name="org.apache.cordova.splashscreen" />
 
