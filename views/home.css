@@ -1,0 +1,35 @@
+﻿/* Put css styles for home view here */
+.centreer{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	}
+
+#qrcodeVak {
+	width: 325px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+#titel{
+	width: 100%;
+	text-align: center;
+	}
+p{
+	text-align: left;
+	}
+#qrAchtergrond{
+	background: #ffffff;
+	width: 320px;
+	height: 320px;
+	display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+	}
+	
+#qrcode{
+	background: #ffffff;
+	display: inline-block;
+	width: 256px;
+	height: 256px;
+	}

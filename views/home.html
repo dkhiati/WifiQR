@@ -1,0 +1,31 @@
+﻿<div data-options="dxView : { name: 'home', title: 'Home' } " >
+    <div class="home-view"  data-options="dxContent : { targetPlaceholder: 'content' } " >
+		<div id="scrollView" data-bind="dxScrollView: {direction: 'vertical'}">
+			<div class="centreer">
+				<div id= "titel">
+					<h1>WifiQR</h1>
+				</div>
+				</br>
+				<h3>SSID:</h3></br>
+				<div data-bind="dxTextBox:{value:ssid, placeholder: 'Netwerknaam'}"></div>
+				<h3>Wachtwoord:</h3></br>
+				<div data-bind="dxTextBox:{value:wachtwoord, placeholder: 'Wachtwoord'}"></div>
+				<h3>Beveiliging:</h3></br>
+				<div data-bind="dxSelectBox:{
+					dataSource: beveiliging,
+					displayExpr: 'naam',
+					valueExpr: 'keuze',
+					value: keuze,
+					placeholder: 'Beveiliging'
+				}">
+				</div></br>
+				<div data-bind="dxButton: { text: 'Genereer', clickAction: Genereer}"></div>
+			</div>
+			<div id="qrcodeVak">
+				<div id="qrAchtergrond">
+					<div id="qrcode"></div>
+				</div>
+			</div>				
+		</div>
+	</div>
+</div>
