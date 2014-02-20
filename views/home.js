@@ -21,7 +21,7 @@ WifiQR.home = function(){
 				} else if(keuze()==3){
 					qrinfo("WIFI:T:WPA;S:"+ssid()+";P:"+wachtwoord()+";;");
 				}
-				alert(qrinfo());
+				//alert(qrinfo());
 				$("#qrcode").empty();
 				$("#qrcode").qrcode({
 					render: "table",
