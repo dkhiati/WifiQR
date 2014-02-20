@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "WifiQR"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>WifiQR</name>
+
+    <description>
+        Wifi qrcode generator 
+    </description>
+
+    <author href="http://www.d-nova.nl" email="info@d-nova.nl">
+        D. Khiati
+    </author>
+	
+	 <preference name="permissions" value="none"/>
+	 
+	 <gap:platform name="android"/>
+	 
+	<icon src="resources/PackageIcons.Android.ic_launcher_36_36.png"   gap:platform="android"    gap:density="ldpi" />
+    <icon src="resources/PackageIcons.Android.ic_launcher_48_48.png"   gap:platform="android"    gap:density="mdpi" />
+    <icon src="resources/PackageIcons.Android.ic_launcher_72_72.png"   gap:platform="android"    gap:density="hdpi" />
+    <icon src="resources/PackageIcons.Android.ic_launcher_96_96.png"   gap:platform="android"    gap:density="xhdpi" />
+	
+	<gap:splash src="resources/PackageIcons.Android.splash_200_320.png"  gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="resources/PackageIcons.Android.splash_320_480.png"  gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="resources/PackageIcons.Android.splash_480_800.png"  gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="resources/PackageIcons.Android.splash_720_1280.png" gap:platform="android" gap:density="xhdpi" />
+	 
+	 <gap:plugin name="org.apache.cordova.splashscreen" />
+
+</widget>
